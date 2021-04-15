@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elements source="Stage (Stage.exe) version 10.3.0 build 8663 2013-11-20 21:00:13" version="1030" build="8663">
+ <element id="3" elementName="badan" elementFolder="badan" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="4" elementName="muka" elementFolder="muka" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="5" elementName="alis" elementFolder="alis" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="6" elementName="hidung" elementFolder="hidung" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="7" elementName="mata" elementFolder="mata" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="8" elementName="mulut" elementFolder="mulut" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="9" elementName="rambut" elementFolder="rambut" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="10" elementName="tangan_kanan" elementFolder="tangan_kanan" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="11" elementName="tangan_kiri" elementFolder="tangan_kiri" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="12" elementName="kaki_kiri" elementFolder="kaki_kiri" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="13" elementName="kaki_kanan" elementFolder="kaki_kanan" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="15" elementName="telapak_kiri" elementFolder="telapak_kiri" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="16" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="22" elementName="telapak_kanan" elementFolder="telapak_kanan" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+</elements>
