@@ -88,6 +88,11 @@
     <dwg name="8"/>
    </drawings>
   </element>
+  <element id="25" elementName="obstacle" elementFolder="obstacle" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+   </drawings>
+  </element>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -223,30 +228,122 @@
     </column>
     <column type="3" name="Deformation-Switch_Kinematic_Chain_Selection_Reference_9" displayOrder="0" width="100" anonymous="false">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="Deformation-Switch_Kinematic_Chain_Selection_Reference_10" displayOrder="0" width="100" anonymous="false">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
     </column>
     <column type="3" name="ATV-0AA42168E3F0A471" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
      <points>
       <pt constSeg="false" x="1" y="-0.308361" rx="1" ry="-0.308361" lx="1" ly="-0.308361"/>
      </points>
     </column>
     <column type="3" name="ATV-0AA42168E3F0A472" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
      <points>
       <pt constSeg="false" x="1" y="1.78886" rx="1" ry="1.78886" lx="1" ly="1.78886"/>
      </points>
     </column>
     <column type="3" name="ATV-0AA42168E3F0A473" displayOrder="0" width="100" anonymous="true">
      <step val="1" start="1" stop="1"/>
+     <noFrames/>
      <points>
       <pt constSeg="false" x="1" y="91.5064" rx="1" ry="91.5064" lx="1" ly="91.5064"/>
      </points>
     </column>
+    <column type="0" name="ATV-0AA42692AAA0485A" displayOrder="0" width="100" anonymous="true" id="25">
+     <elementSeq exposures="1" val="1" id="25"/>
+    </column>
+    <column type="3" name="ATV-0AA42692AAA0BCD9" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="7.68748" rx="1" ry="7.68748" lx="1" ly="7.68748"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AA42692AAA0BCDA" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="0.349999" rx="1" ry="0.349999" lx="1" ly="0.349999"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AA42692AAA0BCDB" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="0" rx="1" ry="0" lx="1" ly="0"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AA42692AAA0BCDC" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="1" rx="1" ry="1" lx="1" ly="1"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AA42692AAA0BCDD" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="1" rx="1" ry="1" lx="1" ly="1"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AA42692AAA0BCDE" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="0" rx="1" ry="0" lx="1" ly="0"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AA42692AAA0BCDF" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="0" rx="1" ry="0" lx="1" ly="0"/>
+     </points>
+    </column>
+    <column type="2" name="ATV-0AA42692AAA0DA3F" anonymous="true" displayOrder="0">
+     <infoX width="100"/>
+     <infoY width="100"/>
+     <infoZ width="100"/>
+     <infoVelocity width="100"/>
+     <path3D useVeloX="true" useVeloY="true" useVeloZ="true" constantZ="false">
+      <points>
+       <pt val="7.575,1,3.65625" lockedInTime="1"/>
+      </points>
+     </path3D>
+     <velocity type="3" name="ATV-0AA42692AAA0DA40" displayOrder="0" width="100" anonymous="true">
+      <step val="1" start="1" stop="1"/>
+      <points>
+       <pt constSeg="false" x="1" y="0" rx="1" ry="0" lx="1" ly="0"/>
+      </points>
+     </velocity>
+    </column>
+    <column type="3" name="ATV-0AA42692AAA0DA41" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="1" rx="1" ry="1" lx="1" ly="1"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AA42692AAA0DA42" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="1" rx="1" ry="1" lx="1" ly="1"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AA42692AAA0DA43" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="0" rx="1" ry="0" lx="1" ly="0"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AA42692AAA0DA44" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="0" rx="1" ry="0" lx="1" ly="0"/>
+     </points>
+    </column>
    </columns>
    <options>
+    <camera val="Camera"/>
     <defaultDisplay val="Display"/>
    </options>
    <rootgroup name="Top">
@@ -305,14 +402,14 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <group name="Group" pos="15,-101,1">
+     <group name="Kinoy" pos="16,-101,1">
       <options>
        <subnodeCollapsed val="false"/>
        <collapsed val="false"/>
       </options>
       <attrs/>
       <nodeslist>
-       <module type="MULTIPORT_IN" name="Input" pos="113,-463,6">
+       <module type="MULTIPORT_IN" name="Input" pos="242,-406,18">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -323,7 +420,7 @@
          <port type="PEG" idx="2"/>
         </ports>
        </module>
-       <module type="MULTIPORT_OUT" name="Output" pos="0,100,15">
+       <module type="MULTIPORT_OUT" name="Output" pos="15,104,20">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -332,7 +429,7 @@
          <port type="IMAGE" idx="0"/>
         </ports>
        </module>
-       <module type="READ" name="kaki_kanan" pos="-57,-140,19">
+       <module type="READ" name="kaki_kanan" pos="-80,-102,22">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -429,7 +526,7 @@
          <canAnimate val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="kaki_kiri" pos="49,-170,20">
+       <module type="READ" name="kaki_kiri" pos="26,-132,17">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -526,7 +623,7 @@
          <canAnimate val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="badan" pos="597,-20,17">
+       <module type="READ" name="badan" pos="574,18,21">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -623,7 +720,7 @@
          <canAnimate val="true"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_1" pos="-49,40,13">
+       <module type="COMPOSITE" name="Composite_1" pos="-34,44,19">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -642,7 +739,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="READ" name="tangan_kiri" pos="-471,-20,21">
+       <module type="READ" name="tangan_kiri" pos="-397,-12,23">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -739,9 +836,8 @@
          <canAnimate val="true"/>
         </attrs>
        </module>
-       <group name="Deformation-tangan_kiri" pos="-474,-136,4">
+       <group name="Deformation-tangan_kiri" pos="-435,-106,5">
         <options>
-         <disabled value="true"/>
          <subnodeCollapsed val="true"/>
          <collapsed val="false"/>
         </options>
@@ -754,6 +850,7 @@
           </options>
           <ports>
            <port type="PEG" idx="0"/>
+           <port type="PEG" idx="1"/>
           </ports>
          </module>
          <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-750,2">
@@ -813,6 +910,7 @@
             </options>
             <ports>
              <port type="PEG" idx="0"/>
+             <port type="PEG" idx="1"/>
             </ports>
            </module>
            <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-750,0">
@@ -1045,37 +1143,105 @@
              <length val="1.68433"/>
             </attrs>
            </module>
+           <module type="OffsetModule" name="Offset_1" pos="-100,-653,0">
+            <options>
+             <version val="1"/>
+             <collapsed val="false"/>
+            </options>
+            <attrs>
+             <restingoffset>
+              <x val="0.42497"/>
+              <y val="0.666643"/>
+             </restingoffset>
+             <restingorientation val="0"/>
+             <offset>
+              <separate val="true"/>
+              <x val="0.42497"/>
+              <y val="0.666643"/>
+             </offset>
+             <orientation val="0"/>
+            </attrs>
+           </module>
+           <module type="OffsetModule" name="Offset_2" pos="-200,-653,0">
+            <options>
+             <version val="1"/>
+             <collapsed val="false"/>
+            </options>
+            <attrs>
+             <restingoffset>
+              <x val="0.491637"/>
+              <y val="1.07775"/>
+             </restingoffset>
+             <restingorientation val="0"/>
+             <offset>
+              <separate val="true"/>
+              <x val="0.491637"/>
+              <y val="1.07775"/>
+             </offset>
+             <orientation val="0"/>
+            </attrs>
+           </module>
           </nodeslist>
           <linkedlist>
            <link out="Multi-Port-In" in="Deformation-Root"/>
            <link out="Deformation-Root" in="Offset"/>
+           <link out="Deformation-Root" in="Offset_1"/>
+           <link out="Deformation-Root" in="Offset_2"/>
            <link out="Deformation-Composite" in="Deformation-Switch"/>
-           <link out="Deformation-Switch" in="Multi-Port-Out"/>
+           <link out="Deformation-Switch" in="Multi-Port-Out" inport="0"/>
            <link out="Offset" in="Bone"/>
            <link out="Bone" in="Articulation"/>
            <link out="Articulation" in="Bone_1"/>
            <link out="Bone_1" in="Articulation_1"/>
            <link out="Articulation_1" in="Bone_2"/>
-           <link out="Bone_2" in="Deformation-Composite"/>
+           <link out="Bone_2" in="Deformation-Composite" inport="0"/>
+           <link out="Bone_2" in="Multi-Port-Out" inport="1"/>
+           <link out="Offset_1" in="Deformation-Composite" inport="1"/>
+           <link out="Offset_2" in="Deformation-Composite" inport="2"/>
           </linkedlist>
          </group>
+         <module type="DeformationCompositeModule" name="Deformation-tangan_kiri-kinematic" pos="-302,-50,0">
+          <options>
+           <version val="1"/>
+           <collapsed val="false"/>
+          </options>
+          <attrs>
+           <outputmatrixonly val="true"/>
+           <outputselectedonly val="true"/>
+           <outputkinematicchainselector val="USE_PARENT_COMPOSITE"/>
+           <outputkinematicchain val="1"/>
+          </attrs>
+         </module>
         </nodeslist>
         <linkedlist>
          <link out="Multi-Port-In" in="Deformation-Root"/>
          <link out="Deformation-Root" in="1"/>
          <link out="Deformation-Composite" in="Deformation-Switch"/>
-         <link out="Deformation-Switch" in="Multi-Port-Out"/>
+         <link out="Deformation-Composite" in="Deformation-tangan_kiri-kinematic" inport="0"/>
+         <link out="Deformation-Switch" in="Multi-Port-Out" inport="0"/>
          <link out="1" in="Deformation-Composite"/>
+         <link out="1" outport="1" in="Deformation-tangan_kiri-kinematic" inport="1"/>
+         <link out="Deformation-tangan_kiri-kinematic" in="Multi-Port-Out" inport="1"/>
         </linkedlist>
        </group>
-       <group name="Deformation-tangan_kanan" pos="-269,-179,5">
+       <group name="Deformation-tangan_kanan" pos="-296,-173,7">
         <options>
          <subnodeCollapsed val="true"/>
          <collapsed val="false"/>
         </options>
         <attrs/>
         <nodeslist>
-         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+         <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,5">
+          <options>
+           <version val="1"/>
+           <collapsed val="false"/>
+          </options>
+          <ports>
+           <port type="PEG" idx="0"/>
+           <port type="PEG" idx="1"/>
+          </ports>
+         </module>
+         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-750,1">
           <options>
            <version val="1"/>
            <collapsed val="false"/>
@@ -1084,16 +1250,7 @@
            <port type="PEG" idx="0"/>
           </ports>
          </module>
-         <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-750,0">
-          <options>
-           <version val="1"/>
-           <collapsed val="false"/>
-          </options>
-          <ports>
-           <port type="PEG" idx="0"/>
-          </ports>
-         </module>
-         <module type="DeformationRootModule" name="Deformation-Root" pos="-2,-703,0">
+         <module type="DeformationRootModule" name="Deformation-Root" pos="-4,-703,2">
           <options>
            <version val="1"/>
            <collapsed val="false"/>
@@ -1102,7 +1259,7 @@
            <deformationquality val="Very High"/>
           </attrs>
          </module>
-         <module type="DeformationCompositeModule" name="Deformation-Composite" pos="0,-100,0">
+         <module type="DeformationCompositeModule" name="Deformation-Composite" pos="0,-100,7">
           <options>
            <version val="1"/>
            <collapsed val="false"/>
@@ -1114,7 +1271,7 @@
            <outputkinematicchain val="1" col="Deformation-Switch_Kinematic_Chain_Selection_Reference_2"/>
           </attrs>
          </module>
-         <module type="DeformationSwitchModule" name="Deformation-Switch" pos="-2,-53,0">
+         <module type="DeformationSwitchModule" name="Deformation-Switch" pos="-2,-53,8">
           <options>
            <version val="1"/>
            <collapsed val="false"/>
@@ -1127,14 +1284,24 @@
            <chainselectionreference val="1" col="Deformation-Switch_Kinematic_Chain_Selection_Reference_2"/>
           </attrs>
          </module>
-         <group name="1" pos="-2,-453,0">
+         <group name="1" pos="-2,-453,4">
           <options>
            <subnodeCollapsed val="true"/>
            <collapsed val="false"/>
           </options>
           <attrs/>
           <nodeslist>
-           <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+           <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,1">
+            <options>
+             <version val="1"/>
+             <collapsed val="false"/>
+            </options>
+            <ports>
+             <port type="PEG" idx="0"/>
+             <port type="PEG" idx="1"/>
+            </ports>
+           </module>
+           <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-750,2">
             <options>
              <version val="1"/>
              <collapsed val="false"/>
@@ -1143,16 +1310,7 @@
              <port type="PEG" idx="0"/>
             </ports>
            </module>
-           <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-750,0">
-            <options>
-             <version val="1"/>
-             <collapsed val="false"/>
-            </options>
-            <ports>
-             <port type="PEG" idx="0"/>
-            </ports>
-           </module>
-           <module type="DeformationRootModule" name="Deformation-Root" pos="-2,-703,0">
+           <module type="DeformationRootModule" name="Deformation-Root" pos="-2,-703,3">
             <options>
              <version val="1"/>
              <collapsed val="false"/>
@@ -1161,7 +1319,7 @@
              <deformationquality val="Very High"/>
             </attrs>
            </module>
-           <module type="DeformationCompositeModule" name="Deformation-Composite" pos="0,-100,0">
+           <module type="DeformationCompositeModule" name="Deformation-Composite" pos="0,-100,4">
             <options>
              <version val="1"/>
              <collapsed val="false"/>
@@ -1173,7 +1331,7 @@
              <outputkinematicchain val="1"/>
             </attrs>
            </module>
-           <module type="DeformationSwitchModule" name="Deformation-Switch" pos="-2,-53,0">
+           <module type="DeformationSwitchModule" name="Deformation-Switch" pos="-2,-53,5">
             <options>
              <version val="1"/>
              <collapsed val="false"/>
@@ -1186,7 +1344,7 @@
              <chainselectionreference val="1"/>
             </attrs>
            </module>
-           <module type="OffsetModule" name="Offset" pos="-2,-653,0">
+           <module type="OffsetModule" name="Offset" pos="-2,-653,6">
             <options>
              <version val="1"/>
              <collapsed val="false"/>
@@ -1205,7 +1363,7 @@
              <orientation val="-18.2171"/>
             </attrs>
            </module>
-           <module type="BoneModule" name="Bone" pos="-2,-603,0">
+           <module type="BoneModule" name="Bone" pos="-2,-603,7">
             <shapedROI>
              <pt pointOn="-5,-5"/>
              <pt pointOff="-2,-5"/>
@@ -1237,7 +1395,7 @@
              <length val="1.48866"/>
             </attrs>
            </module>
-           <module type="ArticulationModule" name="Articulation" pos="-2,-553,0">
+           <module type="ArticulationModule" name="Articulation" pos="-2,-553,8">
             <shapedROI>
              <pt pointOn="-5,-5"/>
              <pt pointOff="-2,-5"/>
@@ -1273,7 +1431,7 @@
              <bias val="0.45" col="ATV-0AA4184C03602EB7"/>
             </attrs>
            </module>
-           <module type="BoneModule" name="Bone_1" pos="-2,-503,0">
+           <module type="BoneModule" name="Bone_1" pos="-2,-503,9">
             <shapedROI>
              <pt pointOn="-5,-5"/>
              <pt pointOff="-2,-5"/>
@@ -1305,7 +1463,7 @@
              <length val="1.49922"/>
             </attrs>
            </module>
-           <module type="ArticulationModule" name="Articulation_1" pos="-2,-453,0">
+           <module type="ArticulationModule" name="Articulation_1" pos="-2,-453,10">
             <shapedROI>
              <pt pointOn="-5,-5"/>
              <pt pointOff="-2,-5"/>
@@ -1341,7 +1499,7 @@
              <bias val="0.45"/>
             </attrs>
            </module>
-           <module type="BoneModule" name="Bone_2" pos="-2,-403,0">
+           <module type="BoneModule" name="Bone_2" pos="-2,-403,11">
             <shapedROI>
              <pt pointOn="-5,-5"/>
              <pt pointOff="-2,-5"/>
@@ -1378,16 +1536,17 @@
            <link out="Multi-Port-In" in="Deformation-Root"/>
            <link out="Deformation-Root" in="Offset"/>
            <link out="Deformation-Composite" in="Deformation-Switch"/>
-           <link out="Deformation-Switch" in="Multi-Port-Out"/>
+           <link out="Deformation-Switch" in="Multi-Port-Out" inport="0"/>
            <link out="Offset" in="Bone"/>
            <link out="Bone" in="Articulation"/>
            <link out="Articulation" in="Bone_1"/>
            <link out="Bone_1" in="Articulation_1"/>
            <link out="Articulation_1" in="Bone_2"/>
            <link out="Bone_2" in="Deformation-Composite"/>
+           <link out="Bone_2" in="Multi-Port-Out" inport="1"/>
           </linkedlist>
          </group>
-         <group name="1_3" pos="-2,-253,0">
+         <group name="1_3" pos="-2,-253,3">
           <options>
            <subnodeCollapsed val="true"/>
            <collapsed val="false"/>
@@ -1401,6 +1560,7 @@
             </options>
             <ports>
              <port type="PEG" idx="0"/>
+             <port type="PEG" idx="1"/>
             </ports>
            </module>
            <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-750,0">
@@ -1638,27 +1798,116 @@
            <link out="Multi-Port-In" in="Deformation-Root"/>
            <link out="Deformation-Root" in="Offset"/>
            <link out="Deformation-Composite" in="Deformation-Switch"/>
-           <link out="Deformation-Switch" in="Multi-Port-Out"/>
+           <link out="Deformation-Switch" in="Multi-Port-Out" inport="0"/>
            <link out="Offset" in="Bone"/>
            <link out="Bone" in="Articulation"/>
            <link out="Articulation" in="Bone_1"/>
            <link out="Bone_1" in="Articulation_1"/>
            <link out="Articulation_1" in="Bone_2"/>
            <link out="Bone_2" in="Deformation-Composite"/>
+           <link out="Bone_2" in="Multi-Port-Out" inport="1"/>
           </linkedlist>
          </group>
+         <group name="5" pos="0,-250,0">
+          <options>
+           <subnodeCollapsed val="true"/>
+           <collapsed val="false"/>
+          </options>
+          <attrs/>
+          <nodeslist>
+           <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="0,0,0">
+            <options>
+             <version val="1"/>
+             <collapsed val="false"/>
+            </options>
+            <ports>
+             <port type="PEG" idx="0"/>
+             <port type="PEG" idx="1"/>
+            </ports>
+           </module>
+           <module type="MULTIPORT_IN" name="Multi-Port-In" pos="0,-750,0">
+            <options>
+             <version val="1"/>
+             <collapsed val="false"/>
+            </options>
+            <ports>
+             <port type="PEG" idx="0"/>
+            </ports>
+           </module>
+           <module type="DeformationRootModule" name="Deformation-Root" pos="0,-700,0">
+            <options>
+             <version val="1"/>
+             <collapsed val="false"/>
+            </options>
+            <attrs>
+             <deformationquality val="Very High"/>
+            </attrs>
+           </module>
+           <module type="DeformationCompositeModule" name="Deformation-Composite" pos="0,-100,0">
+            <options>
+             <version val="1"/>
+             <collapsed val="false"/>
+            </options>
+            <attrs>
+             <outputmatrixonly val="false"/>
+             <outputselectedonly val="false"/>
+             <outputkinematicchainselector val="RIGHTMOST"/>
+             <outputkinematicchain val="1"/>
+            </attrs>
+           </module>
+           <module type="DeformationSwitchModule" name="Deformation-Switch" pos="0,-50,0">
+            <options>
+             <version val="1"/>
+             <collapsed val="false"/>
+            </options>
+            <attrs>
+             <vectorquality val="Very High"/>
+             <fadeexponent val="3"/>
+             <fadeinside val="false"/>
+             <enabledeformation val="1"/>
+             <chainselectionreference val="1"/>
+            </attrs>
+           </module>
+          </nodeslist>
+          <linkedlist>
+           <link out="Multi-Port-In" in="Deformation-Root"/>
+           <link out="Deformation-Root" in="Deformation-Composite"/>
+           <link out="Deformation-Root" in="Multi-Port-Out" inport="1"/>
+           <link out="Deformation-Composite" in="Deformation-Switch"/>
+           <link out="Deformation-Switch" in="Multi-Port-Out" inport="0"/>
+          </linkedlist>
+         </group>
+         <module type="DeformationCompositeModule" name="Deformation-tangan_kanan-kinematic" pos="-304,-50,0">
+          <options>
+           <version val="1"/>
+           <collapsed val="false"/>
+          </options>
+          <attrs>
+           <outputmatrixonly val="true"/>
+           <outputselectedonly val="true"/>
+           <outputkinematicchainselector val="USE_PARENT_COMPOSITE"/>
+           <outputkinematicchain val="1"/>
+          </attrs>
+         </module>
         </nodeslist>
         <linkedlist>
          <link out="Multi-Port-In" in="Deformation-Root"/>
          <link out="Deformation-Root" in="1"/>
          <link out="Deformation-Root" in="1_3"/>
+         <link out="Deformation-Root" in="5"/>
          <link out="Deformation-Composite" in="Deformation-Switch"/>
-         <link out="Deformation-Switch" in="Multi-Port-Out"/>
+         <link out="Deformation-Composite" in="Deformation-tangan_kanan-kinematic" inport="0"/>
+         <link out="Deformation-Switch" in="Multi-Port-Out" inport="0"/>
          <link out="1" in="Deformation-Composite" inport="0"/>
+         <link out="1" outport="1" in="Deformation-tangan_kanan-kinematic" inport="1"/>
          <link out="1_3" in="Deformation-Composite" inport="1"/>
+         <link out="1_3" outport="1" in="Deformation-tangan_kanan-kinematic" inport="2"/>
+         <link out="5" in="Deformation-Composite" inport="2"/>
+         <link out="5" outport="1" in="Deformation-tangan_kanan-kinematic" inport="3"/>
+         <link out="Deformation-tangan_kanan-kinematic" in="Multi-Port-Out" inport="1"/>
         </linkedlist>
        </group>
-       <module type="READ" name="tangan_kanan" pos="-284,-80,22">
+       <module type="READ" name="tangan_kanan" pos="-195,-79,24">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -1755,7 +2004,7 @@
          <canAnimate val="true"/>
         </attrs>
        </module>
-       <group name="Deformation-kaki_kanan" pos="-74,-200,14">
+       <group name="Deformation-kaki_kanan" pos="-118,-196,11">
         <options>
          <subnodeCollapsed val="true"/>
          <collapsed val="false"/>
@@ -2083,7 +2332,7 @@
          <link out="1" in="Deformation-Composite"/>
         </linkedlist>
        </group>
-       <group name="Deformation-kaki_kiri" pos="116,-204,7">
+       <group name="Deformation-kaki_kiri" pos="-12,-226,10">
         <options>
          <subnodeCollapsed val="true"/>
          <collapsed val="false"/>
@@ -2411,7 +2660,7 @@
          <link out="1" in="Deformation-Composite"/>
         </linkedlist>
        </group>
-       <group name="Deformation-badan" pos="162,-368,3">
+       <group name="character" pos="25,-357,4">
         <options>
          <subnodeCollapsed val="true"/>
          <collapsed val="false"/>
@@ -2444,7 +2693,7 @@
          <module type="DeformationRootModule" name="Deformation-Root" pos="0,-700,0">
           <options>
            <version val="1"/>
-           <collapsed val="false"/>
+           <collapsed val="true"/>
           </options>
           <attrs>
            <deformationquality val="Very High"/>
@@ -2759,7 +3008,7 @@
          <link out="Deformation-badan-kinematic_4" in="Multi-Port-Out" inport="5"/>
         </linkedlist>
        </group>
-       <group name="Deformation-muka" pos="320,-294,2">
+       <group name="Deformation-muka" pos="165,-285,9">
         <options>
          <subnodeCollapsed val="true"/>
          <collapsed val="false"/>
@@ -3037,7 +3286,7 @@
          <link out="Deformation-muka-kinematic_4" in="Multi-Port-Out" inport="5"/>
         </linkedlist>
        </group>
-       <module type="READ" name="muka" pos="522,-50,24">
+       <module type="READ" name="muka" pos="499,-12,15">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -3134,7 +3383,7 @@
          <canAnimate val="true"/>
         </attrs>
        </module>
-       <group name="Deformation-alis" pos="824,5,10">
+       <group name="Deformation-alis" pos="243,-196,12">
         <options>
          <subnodeCollapsed val="true"/>
          <collapsed val="false"/>
@@ -3406,7 +3655,7 @@
          <link out="1" in="Deformation-Composite"/>
         </linkedlist>
        </group>
-       <module type="READ" name="alis" pos="455,-80,11">
+       <module type="READ" name="alis" pos="281,-102,16">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -3503,7 +3752,7 @@
          <canAnimate val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="hidung" pos="428,-138,9">
+       <module type="READ" name="hidung" pos="69,-162,2">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -3600,7 +3849,7 @@
          <canAnimate val="true"/>
         </attrs>
        </module>
-       <group name="Deformation-rambut" pos="365,-174,8">
+       <group name="Deformation-rambut" pos="138,-192,1">
         <options>
          <subnodeCollapsed val="true"/>
          <collapsed val="false"/>
@@ -3851,7 +4100,7 @@
          <link out="1" in="Deformation-Composite"/>
         </linkedlist>
        </group>
-       <module type="READ" name="rambut" pos="141,-121,12">
+       <module type="READ" name="rambut" pos="171,-124,3">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -3948,7 +4197,7 @@
          <canAnimate val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="mata" pos="297,-140,23">
+       <module type="READ" name="mata" pos="348,-72,13">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -4045,7 +4294,7 @@
          <canAnimate val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="mulut" pos="216,-175,1">
+       <module type="READ" name="mulut" pos="422,-42,14">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -4142,7 +4391,7 @@
          <canAnimate val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="telapak_kanan" pos="-175,-110,18">
+       <module type="READ" name="telapak_kanan" pos="-308,-42,8">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -4239,7 +4488,7 @@
          <canAnimate val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="telapak_kiri" pos="-374,-50,16">
+       <module type="READ" name="telapak_kiri" pos="-495,18,6">
         <options>
          <version val="1"/>
          <collapsed val="false"/>
@@ -4338,35 +4587,35 @@
        </module>
       </nodeslist>
       <linkedlist>
-       <link out="Input" outport="2" in="Deformation-badan"/>
+       <link out="Input" outport="2" in="character"/>
        <link out="kaki_kanan" in="Composite_1" inport="8"/>
        <link out="kaki_kiri" in="Composite_1" inport="7"/>
        <link out="badan" in="Composite_1" inport="0"/>
        <link out="Composite_1" in="Output"/>
        <link out="tangan_kiri" in="Composite_1" inport="11"/>
-       <link out="Deformation-tangan_kiri" in="telapak_kiri"/>
        <link out="Deformation-tangan_kiri" in="tangan_kiri"/>
-       <link out="Deformation-tangan_kanan" in="telapak_kanan"/>
+       <link out="Deformation-tangan_kiri" outport="1" in="telapak_kiri"/>
        <link out="Deformation-tangan_kanan" in="tangan_kanan"/>
+       <link out="Deformation-tangan_kanan" outport="1" in="telapak_kanan"/>
        <link out="tangan_kanan" in="Composite_1" inport="9"/>
        <link out="Deformation-kaki_kanan" in="kaki_kanan"/>
        <link out="Deformation-kaki_kiri" in="kaki_kiri"/>
-       <link out="Deformation-badan" in="badan"/>
-       <link out="Deformation-badan" outport="1" in="Deformation-muka"/>
-       <link out="Deformation-badan" outport="2" in="Deformation-kaki_kiri"/>
-       <link out="Deformation-badan" outport="3" in="Deformation-kaki_kanan"/>
-       <link out="Deformation-badan" outport="4" in="Deformation-tangan_kanan"/>
-       <link out="Deformation-badan" outport="5" in="Deformation-tangan_kiri"/>
-       <link out="Deformation-muka" in="hidung"/>
-       <link out="Deformation-muka" in="Deformation-alis"/>
-       <link out="Deformation-muka" in="mata"/>
-       <link out="Deformation-muka" in="mulut"/>
+       <link out="character" in="badan"/>
+       <link out="character" outport="1" in="Deformation-muka"/>
+       <link out="character" outport="2" in="Deformation-kaki_kiri"/>
+       <link out="character" outport="3" in="Deformation-kaki_kanan"/>
+       <link out="character" outport="4" in="Deformation-tangan_kanan"/>
+       <link out="character" outport="5" in="Deformation-tangan_kiri"/>
        <link out="Deformation-muka" in="muka"/>
+       <link out="Deformation-muka" outport="1" in="mulut"/>
+       <link out="Deformation-muka" outport="2" in="mata"/>
+       <link out="Deformation-muka" outport="3" in="Deformation-alis"/>
+       <link out="Deformation-muka" outport="4" in="hidung"/>
+       <link out="Deformation-muka" outport="5" in="Deformation-rambut"/>
        <link out="muka" in="Composite_1" inport="1"/>
        <link out="Deformation-alis" in="alis"/>
        <link out="alis" in="Composite_1" inport="4"/>
        <link out="hidung" in="Composite_1" inport="6"/>
-       <link out="hidung" in="Deformation-rambut"/>
        <link out="Deformation-rambut" in="rambut"/>
        <link out="rambut" in="Composite_1" inport="5"/>
        <link out="mata" in="Composite_1" inport="3"/>
@@ -4375,11 +4624,209 @@
        <link out="telapak_kiri" in="Composite_1" inport="12"/>
       </linkedlist>
      </group>
+     <module type="READ" name="obstacle" pos="21,34,0">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0" col="ATV-0AA42692AAA0BCD9"/>
+        <y val="0" col="ATV-0AA42692AAA0BCDA"/>
+        <z val="0" col="ATV-0AA42692AAA0BCDB"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1"/>
+        <x val="1" col="ATV-0AA42692AAA0BCDC"/>
+        <y val="1" col="ATV-0AA42692AAA0BCDD"/>
+        <z val="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0"/>
+        <angley val="0"/>
+        <anglez val="0" col="ATV-0AA42692AAA0BCDE"/>
+       </rotation>
+       <angle val="0" col="ATV-0AA42692AAA0BCDE"/>
+       <skew val="0" col="ATV-0AA42692AAA0BCDF"/>
+       <pivot>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360"/>
+       <maxAngle val="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.2"/>
+       <ikBoneY val="0"/>
+       <ikStiffness val="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-0AA42692AAA0485A"/>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12"/>
+        </customName>
+       </drawing>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1"/>
+       <opacity val="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1"/>
+       <addLineArtThickness val="0"/>
+       <minLineArtThickness val="0"/>
+       <maxLineArtThickness val="0"/>
+       <readOverlay val="true"/>
+       <readUnderlay val="true"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
+     <module type="COLOR_CARD" name="Colour-Card" pos="0,0,0">
+      <options>
+       <locked val="true"/>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <depth val="0"/>
+       <offsetZ val="-12"/>
+       <color>
+        <red val="255"/>
+        <green val="255"/>
+        <blue val="255"/>
+        <alpha val="255"/>
+       </color>
+      </attrs>
+     </module>
+     <module type="PEG" name="Camera-P" pos="0,0,0">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <position>
+        <separate val="false"/>
+        <attr3dpath col="ATV-0AA42692AAA0DA3F"/>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1"/>
+        <x val="1" col="ATV-0AA42692AAA0DA41"/>
+        <y val="1" col="ATV-0AA42692AAA0DA42"/>
+        <z val="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0"/>
+        <angley val="0"/>
+        <anglez val="0" col="ATV-0AA42692AAA0DA43"/>
+       </rotation>
+       <angle val="0" col="ATV-0AA42692AAA0DA43"/>
+       <skew val="0" col="ATV-0AA42692AAA0DA44"/>
+       <pivot>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360"/>
+       <maxAngle val="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.2"/>
+       <ikBoneY val="0"/>
+       <ikStiffness val="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
+     <module type="CAMERA" name="Camera" pos="0,0,0">
+      <options>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <offset>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="12"/>
+       </offset>
+       <pivot>
+        <x val="0"/>
+        <y val="0"/>
+       </pivot>
+       <angle val="0"/>
+       <overrideSceneFov val="false"/>
+       <fov val="31.4173"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="Group" in="Composite"/>
+     <link out="Kinoy" in="Composite" inport="2"/>
+     <link out="obstacle" in="Composite" inport="1"/>
+     <link out="Colour-Card" in="Composite" inport="0"/>
+     <link out="Camera-P" in="Camera"/>
     </linkedlist>
    </rootgroup>
   </scene>

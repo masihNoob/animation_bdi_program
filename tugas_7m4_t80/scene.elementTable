@@ -13,4 +13,5 @@
  <element id="13" elementName="kaki_kanan" elementFolder="kaki_kanan" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="23" elementName="telapak_kanan" elementFolder="telapak_kanan" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="24" elementName="telapak_kiri" elementFolder="telapak_kiri.24" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="25" elementName="obstacle" elementFolder="obstacle" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>
