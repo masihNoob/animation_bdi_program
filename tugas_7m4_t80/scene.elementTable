@@ -11,7 +11,6 @@
  <element id="11" elementName="tangan_kiri" elementFolder="tangan_kiri" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="12" elementName="kaki_kiri" elementFolder="kaki_kiri" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="13" elementName="kaki_kanan" elementFolder="kaki_kanan" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="15" elementName="telapak_kiri" elementFolder="telapak_kiri" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="16" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
- <element id="22" elementName="telapak_kanan" elementFolder="telapak_kanan" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="23" elementName="telapak_kanan" elementFolder="telapak_kanan" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="24" elementName="telapak_kiri" elementFolder="telapak_kiri.24" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
 </elements>

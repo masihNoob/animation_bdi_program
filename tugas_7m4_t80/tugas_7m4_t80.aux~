@@ -14,9 +14,15 @@
  </Element>
  <Element Name="mata" ID="7" Folder="mata">
   <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
  </Element>
  <Element Name="mulut" ID="8" Folder="mulut">
   <Drawing Key="" Name="1" Version="1"/>
+  <Drawing Key="" Name="2" Version="1"/>
+  <Drawing Key="" Name="3" Version="1"/>
+  <Drawing Key="" Name="4" Version="1"/>
+  <Drawing Key="" Name="5" Version="1"/>
  </Element>
  <Element Name="rambut" ID="9" Folder="rambut">
   <Drawing Key="" Name="1" Version="1"/>
@@ -35,7 +41,7 @@
  <Element Name="kaki_kanan" ID="13" Folder="kaki_kanan">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
- <Element Name="telapak_kiri" ID="15" Folder="telapak_kiri">
+ <Element Name="telapak_kanan" ID="23" Folder="telapak_kanan">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
@@ -45,16 +51,13 @@
   <Drawing Key="" Name="7" Version="1"/>
   <Drawing Key="" Name="8" Version="1"/>
  </Element>
- <Element Name="Drawing" ID="16" Folder="Drawing">
-  <Drawing Key="" Name="1" Version="1"/>
- </Element>
- <Element Name="telapak_kanan" ID="22" Folder="telapak_kanan">
+ <Element Name="telapak_kiri" ID="24" Folder="telapak_kiri.24">
   <Drawing Key="" Name="1" Version="1"/>
   <Drawing Key="" Name="2" Version="1"/>
   <Drawing Key="" Name="3" Version="1"/>
   <Drawing Key="" Name="4" Version="1"/>
-  <Drawing Key="" Name="6" Version="1"/>
   <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
   <Drawing Key="" Name="7" Version="1"/>
   <Drawing Key="" Name="8" Version="1"/>
  </Element>
