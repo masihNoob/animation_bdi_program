@@ -23,6 +23,7 @@
   <Drawing Key="" Name="3" Version="1"/>
   <Drawing Key="" Name="4" Version="1"/>
   <Drawing Key="" Name="5" Version="1"/>
+  <Drawing Key="" Name="6" Version="1"/>
  </Element>
  <Element Name="rambut" ID="9" Folder="rambut">
   <Drawing Key="" Name="1" Version="1"/>
@@ -62,6 +63,27 @@
   <Drawing Key="" Name="8" Version="1"/>
  </Element>
  <Element Name="obstacle" ID="25" Folder="obstacle">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="bg" ID="27" Folder="bg">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Drawing" ID="28" Folder="Drawing">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="fg" ID="29" Folder="fg">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Drawing_1" ID="30" Folder="Drawing_1">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Drawing_2" ID="31" Folder="Drawing_2">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Drawing_3" ID="32" Folder="Drawing_3">
+  <Drawing Key="" Name="1" Version="1"/>
+ </Element>
+ <Element Name="Drawing_4" ID="33" Folder="Drawing_4">
   <Drawing Key="" Name="1" Version="1"/>
  </Element>
 </SceneVersion>

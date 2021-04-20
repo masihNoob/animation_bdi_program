@@ -162,7 +162,7 @@
        <pt val="0,0,1.2" lockedInTime="1"/>
       </points>
      </path3D>
-     <velocity type="3" name="ATV-0AA1DB9979D006D5" displayOrder="0" width="100" anonymous="true">
+     <velocity type="3" name="ATV-0AA50C13FDB9EEB5" displayOrder="0" width="100" anonymous="true">
       <step val="1" start="1" stop="1"/>
       <noFrames/>
       <points>
