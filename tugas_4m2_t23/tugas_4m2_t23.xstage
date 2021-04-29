@@ -129,7 +129,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="0,0,4">
+     <module type="COMPOSITE" name="Composite" pos="-7,0,5">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -148,13 +148,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="50,50,5">
+     <module type="DISPLAY" name="Display" pos="50,50,6">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-50,50,6">
+     <module type="WRITE" name="Write" pos="-50,50,7">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -180,7 +180,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <group name="keyframe" pos="6,0,1">
+     <group name="keyframe" pos="6,0,2">
       <options>
        <subnodeCollapsed val="true"/>
        <collapsed val="false"/>
@@ -510,7 +510,7 @@
        <link out="char" in="Multi-Port-Out" inport="1"/>
       </linkedlist>
      </group>
-     <group name="layout" pos="-11,-12,3">
+     <group name="layout" pos="-11,-12,4">
       <options>
        <disabled value="true"/>
        <subnodeCollapsed val="true"/>
@@ -946,7 +946,7 @@
        <link out="char" in="Multi-Port-Out" inport="3"/>
       </linkedlist>
      </group>
-     <group name="storyboard" pos="0,0,2">
+     <group name="storyboard" pos="0,0,3">
       <options>
        <disabled value="true"/>
        <subnodeCollapsed val="true"/>
@@ -1278,6 +1278,22 @@
        <link out="bg" in="Multi-Port-Out" inport="0"/>
       </linkedlist>
      </group>
+     <module type="COLOR_CARD" name="Colour-Card" pos="0,0,1">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <depth val="0"/>
+       <offsetZ val="-12"/>
+       <color>
+        <red val="255"/>
+        <green val="255"/>
+        <blue val="255"/>
+        <alpha val="255"/>
+       </color>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Display"/>
@@ -1292,6 +1308,7 @@
      <link out="storyboard" in="Composite" inport="7"/>
      <link out="storyboard" outport="1" in="Composite" inport="8"/>
      <link out="storyboard" outport="2" in="Composite" inport="9"/>
+     <link out="Colour-Card" in="Composite" inport="10"/>
     </linkedlist>
    </rootgroup>
   </scene>

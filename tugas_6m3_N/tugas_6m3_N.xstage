@@ -47,10 +47,10 @@
  <scenes>
   <scene name="Top" id="0a9f8d6e88000152" nbframes="20">
    <columns>
-    <column type="0" name="Drawing" display="false" displayOrder="0" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1-20" val="1" id="1"/>
     </column>
-    <column type="0" name="ATV-0A9F8D6E8801110F" displayOrder="0" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-0A9F8D6E8801110F" display="false" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1-20" val="1" id="2"/>
     </column>
     <column type="0" name="ATV-0A9F9A31F4A1D3C1" displayOrder="0" width="100" anonymous="true" id="3">
@@ -63,7 +63,7 @@
      <elementSeq exposures="14-15" val="7" id="3"/>
      <elementSeq exposures="16-20" val="8" id="3"/>
     </column>
-    <column type="0" name="ATV-0A9FA11CA10376A0" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="5">
+    <column type="0" name="ATV-0A9FA11CA10376A0" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="5">
      <elementSeq exposures="1" val="1" id="5"/>
     </column>
    </columns>
@@ -75,7 +75,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="0,0,0">
+     <module type="COMPOSITE" name="Composite" pos="0,0,1">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -94,13 +94,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="50,50,0">
+     <module type="DISPLAY" name="Display" pos="50,50,2">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-50,50,0">
+     <module type="WRITE" name="Write" pos="-50,50,3">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -126,7 +126,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing" pos="-65,-50,0">
+     <module type="READ" name="Drawing" pos="-65,-50,4">
       <options>
        <disabled val="true"/>
        <locked val="true"/>
@@ -225,7 +225,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing_3" pos="0,0,0">
+     <module type="READ" name="Drawing_3" pos="0,0,5">
       <options>
        <disabled val="true"/>
        <version val="1"/>
@@ -323,8 +323,9 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing_1" pos="0,0,0">
+     <module type="READ" name="Drawing_1" pos="0,0,6">
       <options>
+       <disabled val="true"/>
        <locked val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
@@ -421,7 +422,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing_2" pos="0,0,0">
+     <module type="READ" name="Drawing_2" pos="0,0,7">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -518,9 +519,8 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="COLOR_CARD" name="Colour-Card" pos="0,0,0">
+     <module type="COLOR_CARD" name="Colour-Card" pos="0,0,8">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
