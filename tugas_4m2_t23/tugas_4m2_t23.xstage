@@ -74,7 +74,7 @@
  <scenes>
   <scene name="Top" id="0a9dda3e008000e9" nbframes="60">
    <columns>
-    <column type="0" name="Drawing" displayOrder="7" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" display="false" displayOrder="7" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
     </column>
     <column type="0" name="ATV-0A9DDE29F5F44029" displayOrder="9" width="100" anonymous="true" id="2">
@@ -182,8 +182,9 @@
      </module>
      <group name="keyframe" pos="6,0,2">
       <options>
-       <subnodeCollapsed val="true"/>
-       <collapsed val="false"/>
+       <disabled value="true"/>
+       <subnodeCollapsed val="false"/>
+       <collapsed val="true"/>
       </options>
       <attrs/>
       <nodeslist>
@@ -837,7 +838,6 @@
        </module>
        <module type="READ" name="char" pos="0,0,1">
         <options>
-         <disabled val="true"/>
          <locked val="true"/>
          <version val="1"/>
          <collapsed val="true"/>
@@ -948,8 +948,7 @@
      </group>
      <group name="storyboard" pos="0,0,3">
       <options>
-       <disabled value="true"/>
-       <subnodeCollapsed val="true"/>
+       <subnodeCollapsed val="false"/>
        <collapsed val="false"/>
       </options>
       <attrs/>

@@ -46,6 +46,39 @@
     <dwg name="1"/>
    </drawings>
   </element>
+  <element id="14" elementName="Drawing_6" elementFolder="Drawing_6" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+   </drawings>
+  </element>
+  <element id="15" elementName="Drawing_5" elementFolder="Drawing_5" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+   </drawings>
+  </element>
+  <element id="16" elementName="Drawing_4" elementFolder="Drawing_4" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+   <drawings>
+    <dwg name="1"/>
+    <dwg name="2"/>
+    <dwg name="3"/>
+    <dwg name="4"/>
+    <dwg name="5"/>
+    <dwg name="6"/>
+    <dwg name="7"/>
+    <dwg name="8"/>
+    <dwg name="9"/>
+    <dwg name="10"/>
+    <dwg name="11"/>
+   </drawings>
+  </element>
  </elements>
  <options>
   <metrics unitAspectRatioX="4" unitAspectRatioY="3" numberOfUnitsX="24" numberOfUnitsY="24" numberOfUnitsZ="12"/>
@@ -58,16 +91,16 @@
  <scenes>
   <scene name="Top" id="0aa192ac39400475" nbframes="60">
    <columns>
-    <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" display="false" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
     </column>
-    <column type="0" name="ATV-0AA192AC3940DFCF" display="false" displayOrder="0" width="100" anonymous="true" id="2">
+    <column type="0" name="ATV-0AA192AC3940DFCF" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
     </column>
-    <column type="0" name="ATV-0AA19CED85D7B20C" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-0AA19CED85D7B20C" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="3">
      <elementSeq exposures="1" val="1" id="3"/>
     </column>
-    <column type="0" name="ATV-0AA1A2C53429073B" display="false" displayOrder="0" width="100" anonymous="true" id="4">
+    <column type="0" name="ATV-0AA1A2C53429073B" displayOrder="0" width="100" anonymous="true" id="4">
      <elementSeq exposures="1" val="1" id="4"/>
     </column>
     <column type="0" name="ATV-0AA1C8972F3FEA77" displayOrder="0" width="100" anonymous="true" id="5">
@@ -76,14 +109,41 @@
     <column type="0" name="ATV-0AA1CB48278FB282" displayOrder="0" width="100" anonymous="true" id="6">
      <elementSeq exposures="1" val="1" id="6"/>
     </column>
-    <column type="0" name="ATV-0AA1CFBEAF33388B" display="false" displayOrder="0" width="100" anonymous="true" id="7">
+    <column type="0" name="ATV-0AA1CFBEAF33388B" displayOrder="0" width="100" anonymous="true" id="7">
      <elementSeq exposures="1" val="1" id="7"/>
     </column>
-    <column type="0" name="ATV-0AA1D9E29140BAEE" display="false" displayOrder="0" width="100" anonymous="true" id="9">
+    <column type="0" name="ATV-0AA1D9E29140BAEE" displayOrder="0" width="100" anonymous="true" id="9">
      <elementSeq exposures="1" val="1" id="9"/>
     </column>
-    <column type="0" name="ATV-0AA5082D04A0387B" display="false" displayOrder="0" width="100" anonymous="true" id="13">
+    <column type="0" name="ATV-0AA5082D04A0387B" displayOrder="0" width="100" anonymous="true" id="13">
      <elementSeq exposures="1" val="1" id="13"/>
+    </column>
+    <column type="0" name="ATV-0AA50DB11120089F" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="14">
+     <elementSeq exposures="1" val="1" id="14"/>
+    </column>
+    <column type="0" name="ATV-0AA50DB1112008A1" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="15">
+     <elementSeq exposures="5-6" val="1" id="15"/>
+     <elementSeq exposures="7-8" val="2" id="15"/>
+     <elementSeq exposures="9-10" val="3" id="15"/>
+     <elementSeq exposures="11-12" val="4" id="15"/>
+     <elementSeq exposures="13-14" val="5" id="15"/>
+     <elementSeq exposures="15-16" val="6" id="15"/>
+     <elementSeq exposures="17-19" val="7" id="15"/>
+     <elementSeq exposures="20-22" val="8" id="15"/>
+     <elementSeq exposures="23-24" val="9" id="15"/>
+    </column>
+    <column type="0" name="ATV-0AA50DB1112008A3" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="16">
+     <elementSeq exposures="1-2" val="1" id="16"/>
+     <elementSeq exposures="3-4" val="2" id="16"/>
+     <elementSeq exposures="5-6" val="3" id="16"/>
+     <elementSeq exposures="7-8" val="4" id="16"/>
+     <elementSeq exposures="9-10" val="5" id="16"/>
+     <elementSeq exposures="11-12" val="6" id="16"/>
+     <elementSeq exposures="13-14" val="7" id="16"/>
+     <elementSeq exposures="15-16" val="8" id="16"/>
+     <elementSeq exposures="17-19" val="9" id="16"/>
+     <elementSeq exposures="20-22" val="10" id="16"/>
+     <elementSeq exposures="23-24" val="11" id="16"/>
     </column>
    </columns>
    <options>
@@ -94,7 +154,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="-7,0,2">
+     <module type="COMPOSITE" name="Composite" pos="-28,0,2">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -145,7 +205,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="sket" pos="0,0,5">
+     <module type="READ" name="sket" pos="0,0,6">
       <options>
        <disabled val="true"/>
        <locked val="true"/>
@@ -244,7 +304,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="guide_line" pos="-65,-50,6">
+     <module type="READ" name="guide_line" pos="-65,-50,8">
       <options>
        <disabled val="true"/>
        <locked val="true"/>
@@ -343,7 +403,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="COLOR_CARD" name="Colour-Card" pos="0,0,7">
+     <module type="COLOR_CARD" name="Colour-Card" pos="0,0,10">
       <options>
        <locked val="true"/>
        <version val="1"/>
@@ -360,11 +420,11 @@
        </color>
       </attrs>
      </module>
-     <group name="pose1" pos="0,0,8">
+     <group name="pose1" pos="0,0,11">
       <options>
        <disabled value="true"/>
        <subnodeCollapsed val="false"/>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
       </options>
       <attrs/>
       <nodeslist>
@@ -489,7 +549,6 @@
        </module>
        <module type="READ" name="Drawing" pos="0,0,0">
         <options>
-         <disabled val="true"/>
          <version val="1"/>
          <collapsed val="false"/>
         </options>
@@ -694,11 +753,11 @@
        <link out="pose1_1" in="Multi-Port-Out" inport="0"/>
       </linkedlist>
      </group>
-     <group name="pose2" pos="0,0,9">
+     <group name="pose2" pos="0,0,12">
       <options>
        <disabled value="true"/>
        <subnodeCollapsed val="false"/>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
       </options>
       <attrs/>
       <nodeslist>
@@ -823,7 +882,6 @@
        </module>
        <module type="READ" name="Drawing_1" pos="0,0,0">
         <options>
-         <disabled val="true"/>
          <version val="1"/>
          <collapsed val="false"/>
         </options>
@@ -929,8 +987,9 @@
      </group>
      <group name="pose3" pos="7,0,1">
       <options>
+       <disabled value="true"/>
        <subnodeCollapsed val="false"/>
-       <collapsed val="false"/>
+       <collapsed val="true"/>
       </options>
       <attrs/>
       <nodeslist>
@@ -955,7 +1014,6 @@
        </module>
        <module type="READ" name="pose3" pos="5,0,3">
         <options>
-         <disabled val="true"/>
          <version val="1"/>
          <collapsed val="false"/>
         </options>
@@ -1157,21 +1215,318 @@
        <link out="sketcg" in="Multi-Port-Out" inport="0"/>
       </linkedlist>
      </group>
+     <module type="READ" name="Drawing_6" pos="0,0,5">
+      <options>
+       <disabled val="true"/>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1"/>
+        <x val="1"/>
+        <y val="1"/>
+        <z val="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0"/>
+        <angley val="0"/>
+        <anglez val="0"/>
+       </rotation>
+       <angle val="0"/>
+       <skew val="0"/>
+       <pivot>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360"/>
+       <maxAngle val="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.2"/>
+       <ikBoneY val="0"/>
+       <ikStiffness val="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-0AA50DB11120089F"/>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12"/>
+        </customName>
+       </drawing>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1"/>
+       <opacity val="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1"/>
+       <addLineArtThickness val="0"/>
+       <minLineArtThickness val="0"/>
+       <maxLineArtThickness val="0"/>
+       <readOverlay val="true"/>
+       <readUnderlay val="true"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
+     <module type="READ" name="Drawing_5" pos="0,0,7">
+      <options>
+       <disabled val="true"/>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1"/>
+        <x val="1"/>
+        <y val="1"/>
+        <z val="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0"/>
+        <angley val="0"/>
+        <anglez val="0"/>
+       </rotation>
+       <angle val="0"/>
+       <skew val="0"/>
+       <pivot>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360"/>
+       <maxAngle val="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.2"/>
+       <ikBoneY val="0"/>
+       <ikStiffness val="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-0AA50DB1112008A1"/>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12"/>
+        </customName>
+       </drawing>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1"/>
+       <opacity val="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1"/>
+       <addLineArtThickness val="0"/>
+       <minLineArtThickness val="0"/>
+       <maxLineArtThickness val="0"/>
+       <readOverlay val="true"/>
+       <readUnderlay val="true"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
+     <module type="READ" name="Drawing_4" pos="0,0,9">
+      <options>
+       <disabled val="true"/>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <offset>
+        <separate val="true"/>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </offset>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1"/>
+        <x val="1"/>
+        <y val="1"/>
+        <z val="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0"/>
+        <angley val="0"/>
+        <anglez val="0"/>
+       </rotation>
+       <angle val="0"/>
+       <skew val="0"/>
+       <pivot>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360"/>
+       <maxAngle val="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.2"/>
+       <ikBoneY val="0"/>
+       <ikStiffness val="1"/>
+       <drawing>
+        <elementMode val="true"/>
+        <element col="ATV-0AA50DB1112008A3"/>
+        <customName>
+         <name/>
+         <extension val="tga"/>
+         <fieldChart val="12"/>
+        </customName>
+       </drawing>
+       <readLineArt val="true"/>
+       <readColorArt val="true"/>
+       <readColor val="true"/>
+       <readTransparency val="true"/>
+       <applyMatteToColor val="N"/>
+       <enableLineTexture val="true"/>
+       <antialiasingQuality val="HIGH"/>
+       <antialiasingExponent val="1"/>
+       <opacity val="100"/>
+       <textureFilter val="NEAREST_FILTERED"/>
+       <adjustPencilThickness val="false"/>
+       <normalLineArtThickness val="true"/>
+       <zoomIndependentLineArtThickness val="true"/>
+       <multLineArtThickness val="1"/>
+       <addLineArtThickness val="0"/>
+       <minLineArtThickness val="0"/>
+       <maxLineArtThickness val="0"/>
+       <readOverlay val="true"/>
+       <readUnderlay val="true"/>
+       <useDrawingPivot val="APPLY_ON_READ_TRANSFORM"/>
+       <flipHor val="false"/>
+       <flipVert val="false"/>
+       <turnBeforeAlignment val="false"/>
+       <noClipping val="false"/>
+       <xClipFactor val="0"/>
+       <yClipFactor val="0"/>
+       <alignmentRule val="CENTER_FIRST_PAGE"/>
+       <morphingVelo val="0"/>
+       <canAnimate val="true"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Display"/>
      <link out="Composite" in="Write"/>
-     <link out="sket" in="Composite" inport="2"/>
-     <link out="guide_line" in="Composite" inport="1"/>
-     <link out="Colour-Card" in="Composite" inport="0"/>
-     <link out="pose1" in="Composite" inport="3"/>
-     <link out="pose1" outport="1" in="Composite" inport="4"/>
-     <link out="pose1" outport="2" in="Composite" inport="5"/>
-     <link out="pose2" in="Composite" inport="6"/>
-     <link out="pose2" outport="1" in="Composite" inport="7"/>
-     <link out="pose2" outport="2" in="Composite" inport="8"/>
-     <link out="pose3" in="Composite" inport="9"/>
-     <link out="pose3" outport="1" in="Composite" inport="10"/>
+     <link out="sket" in="Composite" inport="5"/>
+     <link out="guide_line" in="Composite" inport="4"/>
+     <link out="Colour-Card" in="Composite" inport="3"/>
+     <link out="pose1" in="Composite" inport="6"/>
+     <link out="pose1" outport="1" in="Composite" inport="7"/>
+     <link out="pose1" outport="2" in="Composite" inport="8"/>
+     <link out="pose2" in="Composite" inport="9"/>
+     <link out="pose2" outport="1" in="Composite" inport="10"/>
+     <link out="pose2" outport="2" in="Composite" inport="11"/>
+     <link out="pose3" in="Composite" inport="12"/>
+     <link out="pose3" outport="1" in="Composite" inport="13"/>
+     <link out="Drawing_6" in="Composite" inport="2"/>
+     <link out="Drawing_5" in="Composite" inport="1"/>
+     <link out="Drawing_4" in="Composite" inport="0"/>
     </linkedlist>
    </rootgroup>
   </scene>

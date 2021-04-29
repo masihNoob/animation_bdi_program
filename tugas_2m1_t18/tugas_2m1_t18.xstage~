@@ -47,14 +47,56 @@
     <column type="0" name="ATV-0A9C89275598BB4F" display="false" displayOrder="2" width="100" anonymous="true" id="3">
      <elementSeq exposures="1" val="1" id="3"/>
     </column>
-    <column type="0" name="ATV-0A9C99194662A50F" display="false" displayOrder="1" width="100" anonymous="true" id="5">
+    <column type="0" name="ATV-0A9C99194662A50F" displayOrder="1" width="100" anonymous="true" id="5">
      <elementSeq exposures="1" val="1" id="5"/>
     </column>
-    <column type="0" name="ATV-0A9C9C830638D231" displayOrder="0" width="100" anonymous="true" id="9">
+    <column type="0" name="ATV-0A9C9C830638D231" display="false" displayOrder="0" width="100" anonymous="true" id="9">
      <elementSeq exposures="1" val="1" id="9"/>
+    </column>
+    <column type="2" name="ATV-0AA769F744604428" anonymous="true" displayOrder="0">
+     <infoX width="100"/>
+     <infoY width="100"/>
+     <infoZ width="100"/>
+     <infoVelocity width="100"/>
+     <path3D useVeloX="true" useVeloY="true" useVeloZ="true" constantZ="false">
+      <points>
+       <pt val="-3.35,-5.8,15.85" lockedInTime="1"/>
+      </points>
+     </path3D>
+     <velocity type="3" name="ATV-0AA769F744604429" displayOrder="0" width="100" anonymous="true">
+      <step val="1" start="1" stop="1"/>
+      <points>
+       <pt constSeg="false" x="1" y="0" rx="1" ry="0" lx="1" ly="0"/>
+      </points>
+     </velocity>
+    </column>
+    <column type="3" name="ATV-0AA769F74460442A" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="1" rx="1" ry="1" lx="1" ly="1"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AA769F74460442B" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="1" rx="1" ry="1" lx="1" ly="1"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AA769F74460442C" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="0" rx="1" ry="0" lx="1" ly="0"/>
+     </points>
+    </column>
+    <column type="3" name="ATV-0AA769F74460442D" displayOrder="0" width="100" anonymous="true">
+     <step val="1" start="1" stop="1"/>
+     <points>
+      <pt constSeg="false" x="1" y="0" rx="1" ry="0" lx="1" ly="0"/>
+     </points>
     </column>
    </columns>
    <options>
+    <camera val="Camera"/>
     <defaultDisplay val="Display"/>
    </options>
    <rootgroup name="Top">
@@ -62,7 +104,7 @@
      <collapsed val="false"/>
     </options>
     <nodeslist>
-     <module type="COMPOSITE" name="Composite" pos="0,0,5">
+     <module type="COMPOSITE" name="Composite" pos="0,0,8">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -81,13 +123,13 @@
        <mergeVector val="false"/>
       </attrs>
      </module>
-     <module type="DISPLAY" name="Display" pos="50,50,6">
+     <module type="DISPLAY" name="Display" pos="50,50,9">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
      </module>
-     <module type="WRITE" name="Write" pos="-50,50,7">
+     <module type="WRITE" name="Write" pos="-50,50,10">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -113,7 +155,7 @@
        <cleanUpPartitionFolders val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing" pos="-65,-50,8">
+     <module type="READ" name="Drawing" pos="-65,-50,11">
       <options>
        <disabled val="true"/>
        <locked val="true"/>
@@ -212,7 +254,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="line_1" pos="11,0,4">
+     <module type="READ" name="line_1" pos="11,0,7">
       <options>
        <disabled val="true"/>
        <version val="1"/>
@@ -310,7 +352,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing_1" pos="0,0,3">
+     <module type="READ" name="Drawing_1" pos="0,0,6">
       <options>
        <disabled val="true"/>
        <locked val="true"/>
@@ -409,9 +451,8 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing_2" pos="0,0,2">
+     <module type="READ" name="Drawing_2" pos="0,0,5">
       <options>
-       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -507,8 +548,9 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing_3" pos="0,0,1">
+     <module type="READ" name="Drawing_3" pos="0,0,4">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -604,6 +646,103 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
+     <module type="COLOR_CARD" name="Colour-Card" pos="0,0,3">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <depth val="0"/>
+       <offsetZ val="-12"/>
+       <color>
+        <red val="255"/>
+        <green val="255"/>
+        <blue val="255"/>
+        <alpha val="255"/>
+       </color>
+      </attrs>
+     </module>
+     <module type="PEG" name="Camera-P" pos="0,0,1">
+      <options>
+       <version val="1"/>
+       <collapsed val="false"/>
+      </options>
+      <attrs>
+       <enable3d val="false"/>
+       <faceCamera val="false"/>
+       <position>
+        <separate val="false"/>
+        <attr3dpath col="ATV-0AA769F744604428"/>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </position>
+       <scale>
+        <separate val="true"/>
+        <inFields val="false"/>
+        <xy val="1"/>
+        <x val="1" col="ATV-0AA769F74460442A"/>
+        <y val="1" col="ATV-0AA769F74460442B"/>
+        <z val="1"/>
+       </scale>
+       <rotation>
+        <separate val="false"/>
+        <anglex val="0"/>
+        <angley val="0"/>
+        <anglez val="0" col="ATV-0AA769F74460442C"/>
+       </rotation>
+       <angle val="0" col="ATV-0AA769F74460442C"/>
+       <skew val="0" col="ATV-0AA769F74460442D"/>
+       <pivot>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </pivot>
+       <splineOffset>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="0"/>
+       </splineOffset>
+       <ignoreParentPegScaling val="false"/>
+       <disableFieldRendering val="false"/>
+       <depth val="0"/>
+       <enableMinMaxAngle val="false"/>
+       <minAngle val="-360"/>
+       <maxAngle val="360"/>
+       <nailForChildren val="false"/>
+       <ikHoldOrientation val="false"/>
+       <ikHoldX val="false"/>
+       <ikHoldY val="false"/>
+       <ikExcluded val="false"/>
+       <ikCanRotate val="true"/>
+       <ikCanTranslateX val="false"/>
+       <ikCanTranslateY val="false"/>
+       <ikBoneX val="0.2"/>
+       <ikBoneY val="0"/>
+       <ikStiffness val="1"/>
+       <groupAtNetworkBuilding val="false"/>
+       <addCompositeToGroup val="true"/>
+      </attrs>
+     </module>
+     <module type="CAMERA" name="Camera" pos="0,0,2">
+      <options>
+       <version val="1"/>
+      </options>
+      <attrs>
+       <offset>
+        <x val="0"/>
+        <y val="0"/>
+        <z val="12"/>
+       </offset>
+       <pivot>
+        <x val="0"/>
+        <y val="0"/>
+       </pivot>
+       <angle val="0"/>
+       <overrideSceneFov val="false"/>
+       <fov val="31.4173"/>
+      </attrs>
+     </module>
     </nodeslist>
     <linkedlist>
      <link out="Composite" in="Display"/>
@@ -613,6 +752,8 @@
      <link out="Drawing_1" in="Composite" inport="2"/>
      <link out="Drawing_2" in="Composite" inport="3"/>
      <link out="Drawing_3" in="Composite" inport="4"/>
+     <link out="Colour-Card" in="Composite" inport="5"/>
+     <link out="Camera-P" in="Camera"/>
     </linkedlist>
    </rootgroup>
   </scene>

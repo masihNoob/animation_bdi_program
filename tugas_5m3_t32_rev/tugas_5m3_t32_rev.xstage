@@ -64,7 +64,7 @@
     <dwg name="9"/>
    </drawings>
   </element>
-  <element id="16" elementName="Drawing_4" elementFolder="Drawing_4" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
+  <element id="16" elementName="animate" elementFolder="animate" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
     <dwg name="2"/>
@@ -91,13 +91,13 @@
  <scenes>
   <scene name="Top" id="0aa192ac39400475" nbframes="60">
    <columns>
-    <column type="0" name="Drawing" displayOrder="0" width="100" anonymous="true" id="1">
+    <column type="0" name="Drawing" display="false" displayOrder="0" width="100" anonymous="true" id="1">
      <elementSeq exposures="1" val="1" id="1"/>
     </column>
     <column type="0" name="ATV-0AA192AC3940DFCF" displayOrder="0" width="100" anonymous="true" id="2">
      <elementSeq exposures="1" val="1" id="2"/>
     </column>
-    <column type="0" name="ATV-0AA19CED85D7B20C" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="3">
+    <column type="0" name="ATV-0AA19CED85D7B20C" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="3">
      <elementSeq exposures="1" val="1" id="3"/>
     </column>
     <column type="0" name="ATV-0AA1A2C53429073B" displayOrder="0" width="100" anonymous="true" id="4">
@@ -118,10 +118,10 @@
     <column type="0" name="ATV-0AA5082D04A0387B" displayOrder="0" width="100" anonymous="true" id="13">
      <elementSeq exposures="1" val="1" id="13"/>
     </column>
-    <column type="0" name="ATV-0AA50DB11120089F" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="14">
+    <column type="0" name="ATV-0AA50DB11120089F" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="14">
      <elementSeq exposures="1" val="1" id="14"/>
     </column>
-    <column type="0" name="ATV-0AA50DB1112008A1" color="#FFFFFFFF" displayOrder="0" width="100" anonymous="true" id="15">
+    <column type="0" name="ATV-0AA50DB1112008A1" color="#FFFFFFFF" display="false" displayOrder="0" width="100" anonymous="true" id="15">
      <elementSeq exposures="5-6" val="1" id="15"/>
      <elementSeq exposures="7-8" val="2" id="15"/>
      <elementSeq exposures="9-10" val="3" id="15"/>
@@ -423,8 +423,8 @@
      <group name="pose1" pos="0,0,11">
       <options>
        <disabled value="true"/>
-       <subnodeCollapsed val="true"/>
-       <collapsed val="false"/>
+       <subnodeCollapsed val="false"/>
+       <collapsed val="true"/>
       </options>
       <attrs/>
       <nodeslist>
@@ -549,7 +549,6 @@
        </module>
        <module type="READ" name="Drawing" pos="0,0,0">
         <options>
-         <disabled val="true"/>
          <version val="1"/>
          <collapsed val="false"/>
         </options>
@@ -757,8 +756,8 @@
      <group name="pose2" pos="0,0,12">
       <options>
        <disabled value="true"/>
-       <subnodeCollapsed val="true"/>
-       <collapsed val="false"/>
+       <subnodeCollapsed val="false"/>
+       <collapsed val="true"/>
       </options>
       <attrs/>
       <nodeslist>
@@ -883,7 +882,6 @@
        </module>
        <module type="READ" name="Drawing_1" pos="0,0,0">
         <options>
-         <disabled val="true"/>
          <version val="1"/>
          <collapsed val="false"/>
         </options>
@@ -989,8 +987,9 @@
      </group>
      <group name="pose3" pos="7,0,1">
       <options>
-       <subnodeCollapsed val="true"/>
-       <collapsed val="false"/>
+       <disabled value="true"/>
+       <subnodeCollapsed val="false"/>
+       <collapsed val="true"/>
       </options>
       <attrs/>
       <nodeslist>
@@ -1015,7 +1014,6 @@
        </module>
        <module type="READ" name="pose3" pos="5,0,3">
         <options>
-         <disabled val="true"/>
          <version val="1"/>
          <collapsed val="false"/>
         </options>
@@ -1219,6 +1217,7 @@
      </group>
      <module type="READ" name="Drawing_6" pos="0,0,5">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1316,6 +1315,7 @@
      </module>
      <module type="READ" name="Drawing_5" pos="0,0,7">
       <options>
+       <disabled val="true"/>
        <version val="1"/>
        <collapsed val="false"/>
       </options>
@@ -1411,7 +1411,7 @@
        <canAnimate val="true"/>
       </attrs>
      </module>
-     <module type="READ" name="Drawing_4" pos="0,0,9">
+     <module type="READ" name="animate" pos="6,0,9">
       <options>
        <version val="1"/>
        <collapsed val="false"/>
@@ -1525,7 +1525,7 @@
      <link out="pose3" outport="1" in="Composite" inport="13"/>
      <link out="Drawing_6" in="Composite" inport="2"/>
      <link out="Drawing_5" in="Composite" inport="1"/>
-     <link out="Drawing_4" in="Composite" inport="0"/>
+     <link out="animate" in="Composite" inport="0"/>
     </linkedlist>
    </rootgroup>
   </scene>
